@@ -1,0 +1,30 @@
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heading {
+  width: fit-content;
+  margin: 25px auto;
+}
+
+.view-more {
+  display: flex;
+  justify-content: center;
+}
+
+.view-more button {
+  padding: 8px;
+  outline: none;
+  border: 2px solid;
+  font-size: 14px;
+}
+
+.view-more button:hover {
+  opacity: 0.7;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  transition: .5s ease;
+}
